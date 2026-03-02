@@ -1,0 +1,40 @@
+                ┌───────────────────────┐
+                │   MCU / Baseband       │
+                │ (CPU + Protocol Stack) │
+                └───────────┬───────────┘
+                            │ Digital Data
+                            ▼
+                ┌───────────────────────┐
+                │ Modulation /           │
+                │ Demodulation           │
+                │ (Digital Baseband)     │
+                └───────────┬───────────┘
+                            │ Baseband Signal
+                            ▼
+                ┌───────────────────────┐
+                │ RF Transceiver         │
+                │ (Tx / Rx Switching)    │
+                └───────┬─────────┬─────┘
+                        │         │
+                 Tx Path │         │ Rx Path
+                        ▼         ▼
+            ┌────────────────┐  ┌────────────────┐
+            │ Power Amplifier │  │ Low Noise       │
+            │ (PA)            │  │ Amplifier (LNA) │
+            └────────┬───────┘  └────────┬───────┘
+                     │ RF Signal          │ RF Signal
+                     ▼                    ▼
+                ┌───────────────────────────────┐
+                │ RF Filter & Matching Network  │
+                └───────────────┬───────────────┘
+                                │
+                                ▼
+                        ┌─────────────┐
+                        │ Antenna     │
+                        │ Interface   │
+                        └─────────────┘
+
+        ┌──────────────────────────────────────────┐
+        │ Power Supply / Regulators (RF Section)   │
+        │ Supplies stable power to all RF blocks   │
+        └──────────────────────────────────────────┘
