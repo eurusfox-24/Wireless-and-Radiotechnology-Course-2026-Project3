@@ -2,8 +2,8 @@
 ## RF System Block Analysis – ESP32
 
 ### Student Information
-- **Name:** Your Name  
-- **Student ID:** Your ID  
+- **Name:** Min Ko  
+- **Student ID:** s2312638
 
 ---
 
