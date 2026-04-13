@@ -1,9 +1,4 @@
-# Wireless and Radiotechnology Course 2026  
-## RF System Block Analysis – ESP32
-
-### Student Information
-- **Name:** Min Ko  
-- **Student ID:** s2312638
+# RF System Block Analysis – ESP32
 
 ---
 
